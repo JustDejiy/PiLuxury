@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Baskervville', serif;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    padding: 3px;
+}
+
+header p{
+    color: white;
+    font-size: 14px;
+    margin: auto;
+    font-family: 'Baskervville', serif;
+}
+
+header span{
+    font-weight: 700;
+}
+
+nav{
+    margin: 0;
+    padding: 0;
+}
+.navbar .navbar-brand img{
+    width: 50px;
+}
+
+.navbar .navbar-brand{
+    font-size: 24px;
+    font-weight: 700;
+    color: #ad602a;
+    font-family: 'Baskervville', serif;
+}
+
+header .follow{
+    margin: 100px;
+    font-size: 12px;
+}
+
+header .link{
+    margin: 10px;
+}
+
+header .link i{
+    margin: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.nav-item{
+    margin: 20px;
+}
+
+.dropdown .luxury{
+    background-color: #ad602a;
+    color: white;
+}
+
+.nav-item a{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    font-family: 'Baskervville', serif;
+    transition: .5s ease-in;
+}
+
+.nav-item a:hover{
+    text-decoration: underline;
+    color: #ad602a;
+    font-weight: 800;
+}
+
+.top-body{
+    display: flex;
+    background-color: #F0EEED;
+    width: 100%;
+    height: 80vh;
+}
+
+.top-body .top-text{
+    margin: 100px 10px 0 130px;
+    line-height: 2;
+}
+
+.top-text h1{
+    color: #ad602a;
+    letter-spacing: 2px;
+    font-family: 'Baskervville', serif;
+}
+
+.top-text h1 span{
+    font-weight: 900;
+}
+
+.top-text h3{
+    font-family: 'Baskervville', serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.top-body .top-img{
+    width: 100%;
+}
+
+.top-body button{
+    padding: 3px;
+    width: 120px;
+    background-color: #ad602a;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border: none;
+}
+
+.top-body button:hover{
+    background-color: white;
+    color: #ad602a;
+    border: solid 2px #ad602a;
+}
+
+.top-body p{
+    font-family: 'Baskervville', serif;
+}
+
+.about{
+    display: flex;
+    margin-top: 40px;
+    gap: 10px;
+}
+
+.about h3{
+    font-weight: 900;
+    font-family: 'Baskervville', serif;
+}
+
+.about p{
+    font-family: 'Baskervville', serif;
+}
+
+.about-form{
+    margin-top: 40px;
+    background-color: #ad602a;
+    padding: 20px;
+    color: white;
+    height: 250px;
+}
+
+.about-form h3{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.about-form label{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.about-form input{
+    margin-bottom: 10px;
+}
+
+.about-form button{
+    background-color: #ad602a;
+    border: solid 2px white;
+    color: white;
+    padding: 3px;
+    margin-top: 20px;
+    float: right;
+    width: 85px;
+}
+
+@media screen and (max-width: 500px) {
+    header{
+        display: none;
+    }
+
+    .top-body{
+        display: grid;
+        width: 100%;
+    }
+
+    .top-body .top-text{
+        margin: 50px 15px 0 15px;
+        line-height: 2;
+        width: 450px;
+    }
+    
+    .top-text h1{
+        color: #ad602a;
+        letter-spacing: 2px;
+        font-family: 'Baskervville', serif;
+        font-size: 24px;
+        width: 450px;
+    }
+    
+    .top-text h1 span{
+        font-weight: 900;
+    }
+    
+    .top-text h3{
+        font-family: 'Baskervville', serif;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    .top-body .top-img{
+        width: 450Px;
+    }
+
+    .top-img img{
+        width: 400px;
+        align-items: center;
+    }
+    
+    .top-body button{
+        padding: 3px;
+        width: 120px;
+        background-color: #ad602a;
+        color: white;
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 1px;
+        border: none;
+    }
+    
+    .top-body button:hover{
+        background-color: white;
+        color: #ad602a;
+        border: solid 2px #ad602a;
+    }
+    
+    .top-body p{
+        font-family: 'Baskervville', serif;
+        text-align: justify;
+        font-size: 14px;
+    }
+    
+    .about{
+        display: grid;
+        margin-top: 100px;
+        gap: 10px;
+    }
+    
+    .about h3{
+        font-weight: 900;
+        font-family: 'Baskervville', serif;
+    }
+    
+    .about p{
+        font-family: 'Baskervville', serif;
+        display: none;
+    }
+    
+    .about-form{
+        margin-top: 10px;
+        background-color: #ad602a;
+        padding: 20px;
+        color: white;
+        height: 250px;
+    }
+    
+    .about-form h3{
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    
+    .about-form label{
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    
+    .about-form input{
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    
+    .about-form button{
+        background-color: #ad602a;
+        border: solid 2px white;
+        color: white;
+        padding: 3px;
+        margin-top: 20px;
+        float: right;
+        width: 85px;
+    }
+}
