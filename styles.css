@@ -177,7 +177,7 @@ header .link i{
     width: 85px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 450px) {
     header{
         display: none;
     }
@@ -190,7 +190,7 @@ header .link i{
     .top-body .top-text{
         margin: 50px 15px 0 15px;
         line-height: 2;
-        width: 450px;
+        width: 350px;
     }
     
     .top-text h1{
@@ -198,7 +198,7 @@ header .link i{
         letter-spacing: 2px;
         font-family: 'Baskervville', serif;
         font-size: 24px;
-        width: 450px;
+        width: 350px;
     }
     
     .top-text h1 span{
@@ -212,11 +212,11 @@ header .link i{
     }
     
     .top-body .top-img{
-        width: 450Px;
+        width: 350Px;
     }
 
     .top-img img{
-        width: 400px;
+        width: 350px;
         align-items: center;
     }
     
